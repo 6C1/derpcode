@@ -27,7 +27,11 @@ derpcode consists of two objects: a one-ended *tape* of zero-initialized binary 
   </tr>
 </table>
 
-## Termination ##
+## Syntax ##
+
+### Initiation ###
+
+Every derpcode program initiates with the commands `derp a-derp`.
 
 A derpcode program is terminated by decrementing the pointer to -1 after flipping the 0 value, and running the 
 print command. The last line of all derpcode programs is therefore:
@@ -39,10 +43,22 @@ print command. The last line of all derpcode programs is therefore:
 The following derpcode program prints the phrase "Hello world!" to the screen, and exits.
 
 ```
+derp a-derp.
 
 derp herp derp derp derp herp a-derp a-derp a-derp a-derp. 
 derp derp herp derp derp herp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
-derp derp derp derp herp derp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp..
+derp derp derp derp herp derp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
+.
 derp derp derp derp derp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
 
+derp herp derp derp derp herp derp herp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
+derp herp derp derp herp derp derp herp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
+derp derp derp herp derp herp a-derp a-derp a-derp.
+derp derp derp herp derp herp derp herp derp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
+derp derp derp herp derp herp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
+
+derp derp derp derp herp a-derp a-derp a-derp a-derp.
+derp herp derp derp derp derp herp derp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
+
+herp a-derp.
 ```
