@@ -45,7 +45,9 @@ print command. The last line of all derpcode programs is therefore:
 
 `herp a-derp.`
 
-## Hello World ##
+## Sample Programs ##
+
+### Hello World ###
 
 The following derpcode program prints the phrase "Hello world!" to the screen, and exits.
 
