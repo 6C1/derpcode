@@ -14,16 +14,16 @@ print buffer.
     <td><b>Command</b></td><td><b>Description</b></td>
   </tr>
   <tr>
-    <td>`herp`</td><td>Flip the current bit.</td>
+    <td>herp</td><td>Flip the current bit.</td>
   </tr>
   <tr>
-    <td>`derp`</td><td>Increment the pointer.</td>
+    <td>derp</td><td>Increment the pointer.</td>
   </tr>
   <tr>
-    <td>`a-derp`</td><td>Decrement the pointer.</td>
+    <td>a-derp</td><td>Decrement the pointer.</td>
   </tr>
   <tr>
-    <td>`.`</td><td>Write the current bit to the print buffer</td>
+    <td>.</td><td>Write the current bit to the print buffer</td>
   </tr>
 </table>
 
