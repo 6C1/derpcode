@@ -4,7 +4,7 @@ A joke esoteric language based on internet slang.
 
 ## Structure ##
 
-derpcode consists of two objects: a one-ended *tape* of zero-initialized binary values, and a *pointer* 
+derpcode consists of two objects: a one-ended **tape** of zero-initialized binary values, and a **pointer** 
 (i.e., Turing "head").
 
 ## Library ##
