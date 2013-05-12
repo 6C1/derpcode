@@ -32,9 +32,13 @@ derpcode consists of two objects: a one-ended **tape** of zero-initialized binar
 
 ## Syntax ##
 
+Any symbols (including whitespace) which are not defined in the above library table are ignored by the interpreter.
+
 ### Initiation ###
 
 Every derpcode program initiates with the commands `derp a-derp`.
+
+### Termination ###
 
 A derpcode program is terminated by decrementing the pointer to -1 after flipping the 0 value, and running the 
 print command. The last line of all derpcode programs is therefore:
