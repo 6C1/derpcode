@@ -4,8 +4,8 @@ A joke esoteric language based on internet slang.
 
 ## Structure ##
 
-derpcode consists of three objects: a one-ended tape of binary values, a pointer (i.e., Turing "head"), and a 
-print buffer.
+derpcode consists of two objects: a one-ended *tape* of zero-initialized binary values, and a *pointer* 
+(i.e., Turing "head").
 
 ## Library ##
 
@@ -23,11 +23,18 @@ print buffer.
     <td>a-derp</td><td>Decrement the pointer.</td>
   </tr>
   <tr>
-    <td>.</td><td>Write the current bit to the print buffer</td>
+    <td>.</td><td>Write the current bit and the next seven bits to the screen as an ASCII character.</td>
   </tr>
 </table>
 
-## Printing ##
+## Hello World ##
 
-The print buffer is an 8-bit stack, written to via the `.` command. When the stack fills, it automatically
-writes the contents to the `stdout` as a single ASCII character.
+The following derpcode program prints the phrase "Hello world!" to the screen, and exits.
+
+```
+
+derp herp derp derp derp herp a-derp a-derp a-derp a-derp. 
+derp derp herp derp derp herp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
+derp derp derp derp herp derp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
+
+```
