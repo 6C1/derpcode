@@ -23,7 +23,10 @@ derpcode consists of two objects: a one-ended **tape** of zero-initialized binar
     <td>a-derp</td><td>Decrement the pointer.</td>
   </tr>
   <tr>
-    <td>.</td><td>Write the current bit and the next seven bits to the screen as an ASCII character.</td>
+    <td>.</td><td>Write the current bit and the next seven bits to stdout as an ASCII character.</td>
+  </tr>
+  <tr>
+    <td>?</td><td>Get an ASCII character from stdin and store it in the current bit and the next seven bits.</td>
   </tr>
 </table>
 
