@@ -27,6 +27,13 @@ derpcode consists of two objects: a one-ended *tape* of zero-initialized binary 
   </tr>
 </table>
 
+## Termination ##
+
+A derpcode program is terminated by decrementing the pointer to -1 after flipping the 0 value, and running the 
+print command. The last line of all derpcode programs is therefore:
+
+`herp a-derp.`
+
 ## Hello World ##
 
 The following derpcode program prints the phrase "Hello world!" to the screen, and exits.
@@ -35,6 +42,7 @@ The following derpcode program prints the phrase "Hello world!" to the screen, a
 
 derp herp derp derp derp herp a-derp a-derp a-derp a-derp. 
 derp derp herp derp derp herp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
-derp derp derp derp herp derp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
+derp derp derp derp herp derp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp..
+derp derp derp derp derp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
 
 ```
