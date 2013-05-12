@@ -23,12 +23,16 @@ def fopen():
     return False
 
 def main():
+    library = ["herp","derp","a-derp","."]
+
     print "Derpcode Interpreter", version
     data = fopen()
     if (not data):
         print "\nUsage: python derpcode.py [file.derp]\nMake sure your .derp file is properly formatted."
     else:
         data = data.split()
-        print data
+        for word in data:
+            if word in library or word[-1]==".":
+                print word
 
 if __name__=="__main__": main()
