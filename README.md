@@ -62,27 +62,19 @@ The following derpcode program prints the phrase "Hello world!" to the screen, a
 derp a-derp.
 
 derp herp derp derp derp herp a-derp a-derp a-derp a-derp.
-derp derp herp derp derp herp derp herp derp derp herp a-derp a-derp a-derp a-derp a-d\
-erp a-derp a-derp.
-derp derp derp derp herp derp derp derp herp a-derp a-derp a-derp a-derp a-derp a-derp\
- a-derp.
+derp derp herp derp derp herp derp herp derp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
+derp derp derp derp herp derp derp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
 .
-derp derp derp derp derp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a-derp\
- a-derp.
+derp derp derp derp derp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
 
-derp herp derp derp derp herp derp herp derp herp derp herp a-derp a-derp a-derp a-der\
-a-derp a-derp a-derp.
-derp herp derp derp herp derp derp herp derp herp derp herp a-derp a-derp a-derp a-der\
-a-derp a-derp a-derp.
+derp herp derp derp derp herp derp herp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
+derp herp derp derp herp derp derp herp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
 derp derp derp herp derp herp a-derp a-derp a-derp a-derp.
-derp derp derp herp derp herp derp herp derp derp herp a-derp a-derp a-derp a-derp a-d\
-erp a-derp a-derp.
-derp derp derp herp derp herp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a\
--derp.
+derp derp derp herp derp herp derp herp derp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
+derp derp derp herp derp herp derp herp derp herp a-derp a-derp a-derp a-derp a-derp a-derp.
 
 derp derp derp derp herp a-derp a-derp a-derp a-derp.
-derp herp derp derp derp derp herp derp derp herp a-derp a-derp a-derp a-derp a-derp a\
--derp a-derp.
+derp herp derp derp derp derp herp derp derp herp a-derp a-derp a-derp a-derp a-derp a-derp a-derp.
 
 herp a-derp.
 ```
