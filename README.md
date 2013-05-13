@@ -1,6 +1,6 @@
 # derpcode #
 
-A joke esoteric language based on internet slang.
+A tape-based esoteric language based on internet slang.
 
 ## Structure ##
 
@@ -44,6 +44,13 @@ A derpcode program is terminated by decrementing the pointer to -1 after flippin
 print command. The last line of all derpcode programs is therefore:
 
 `herp a-derp.`
+
+## Implementations ##
+
+Implementations planned include:
+
+- [ ] python-based runtime interpreter (in development).
+- [ ] compiler down to C, in C.
 
 ## Sample Programs ##
 
