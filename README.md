@@ -1,6 +1,6 @@
 # derpcode #
 
-A joke esoteric language based on internet slang.
+A tape-based esoteric language based on internet slang.
 
 ## Structure ##
 
