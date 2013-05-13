@@ -45,6 +45,13 @@ print command. The last line of all derpcode programs is therefore:
 
 `herp a-derp.`
 
+## Implementations ##
+
+Implementations planned include:
+
+[ ] Python-based runtime interpreter (in development).
+[ ] Compiler down to C, in C.
+
 ## Sample Programs ##
 
 ### Hello World ###
