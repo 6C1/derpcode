@@ -49,8 +49,8 @@ print command. The last line of all derpcode programs is therefore:
 
 Implementations planned include:
 
-[ ] Python-based runtime interpreter (in development).
-[ ] Compiler down to C, in C.
+- [ ] Python-based runtime interpreter (in development).
+- [ ] Compiler down to C, in C.
 
 ## Sample Programs ##
 
