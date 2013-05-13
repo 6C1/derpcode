@@ -76,6 +76,8 @@ herp a-derp.
 As derpcode is based on widespread internet slang, its ease of human readability is hard to avoid. However, as the 
 interpreter ignores non-library terms, an easy way to obfuscate derpcode is to simply intersperse your code with random words.
 
+### Obfuscated Hello World ###
+
 ```
 My mother drove me to the airport with the windows rolled down. It was seventy-five degrees in Phoenix, the sky a perfect, cloudless blue. I was wearing my favorite shirt - sleeveless, white eyelet lace; I was wearing it as a farewell gesture. My carry-on item was a parka. 
 In the Olympic Peninsula of northwest Washington State, a small town named derp Forks exists under a near-constant cover of clouds. It rains on this inconsequential town more than any other place in the United States of America. It was from this town and its gloomy, omnipresent shade that my mother escaped with me when I was only a few months old. It was in this town that I'd been compelled to spend a month every summer until I was fourteen. That was the year I finally put my foot down; these past three summers, my dad, Charlie, vacationed with me in California for two weeks instead. 
