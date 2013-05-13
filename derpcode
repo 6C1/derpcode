@@ -1,3 +1,8 @@
 #!/bin/bash
 
-python derpcode.py $1
+if [ ${PWD##*/} -eq derpcode" ]
+  then
+    python derpcode.py $1
+  else
+    echo Please cd to your main derpcode directory.
+fi
