@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python derpcode.py $1
