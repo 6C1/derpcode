@@ -11,15 +11,14 @@ def fopen():
         print ".\n.\n."
         f = open(sys.argv[1],'r')
         print "Loaded", f.name
-        if f.read(12)=="derp a-derp.":
-            print "File verified. Reading..."
-            f.seek(0,0)
-            tape = f.read()
-            f.close()
-            return tape
-        else:
-            f.close()
-            return False
+        print "File verified. Reading..."
+        f.seek(0,0)
+        tape = f.read()
+        f.close()
+        return tape
+
+
+
     return False
 
 def main():
@@ -32,7 +31,9 @@ def main():
     else:
         data = data.split()
         for word in data:
-            if word in library or word[-1]==".":
+            if word in library or (word+".") in library:
                 print word
+            else:
+                data.remove(word)
 
 if __name__=="__main__": main()
