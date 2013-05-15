@@ -32,7 +32,7 @@ derpcode consists of two objects: a one-ended **tape** of zero-initialized binar
 
 ## Syntax ##
 
-Any symbols (including whitespace) which are not defined in the above library table are ignored by the interpreter.
+Any words and symbols (including whitespace) which are not defined in the above library table are ignored by the interpreter.
 
 ### Initiation ###
 
