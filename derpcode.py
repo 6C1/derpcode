@@ -48,7 +48,7 @@ def interpret():
     data = fopen()
     if (data==False):
         print("\nUsage: python derpcode.py [file.derp]\nMake sure your .derp file is properly formatted.")
-        system.exit()
+        sys.exit()
     else:
         cmds = filter((lambda x : (x in library) or (x[0:-1] in library)), data.split())
         tape = Tape()

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ${PWD##*/} -eq derpcode ]
+if [ ${PWD##*/} == "derpcode" ]
   then
     python derpcode.py $1
   else
