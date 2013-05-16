@@ -40,16 +40,9 @@ class Tape():
             binstr+=(str(self.cells[self.get_pointer()+i]))
         self.printbuf+=str(chr(int(binstr,2)))
         return True
-def main():
-    interpret()
 
-def interpret():
+def interpret(data):
     library = ["herp","derp","a-derp",".","?"]
-    data = fopen()
-    if (data==False):
-        print("\nUsage: python derpcode.py [file.derp]\nMake sure your .derp file is properly formatted.")
-        sys.exit()
-    else:
         cmds = filter((lambda x : (x in library) or (x[0:-1] in library)), data.split())
         tape = Tape()
         for cmd in cmds:
@@ -70,4 +63,24 @@ def interpret():
                 tape.prt()
                 tape.prt()
         print(tape.printbuf)
+
+def fherp(tape):
+    tape.flip()
+
+def derp(tape):
+    tape.inc()
+
+#
+# MAIN FUNCTION
+#
+
+def main():
+    data = fopen()
+    # File verification
+    if (data==False):
+        print("\nUsage: python derpcode.py [file.derp]\nMake sure your .derp file is properly formatted.")
+        sys.exit()
+    else:
+        interpret(data)
+
 if __name__=="__main__": main()
