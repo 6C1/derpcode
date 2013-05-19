@@ -43,26 +43,19 @@ class Tape():
 
 def interpret(data):
     library = ["herp","derp","a-derp",".","?"]
-        cmds = filter((lambda x : (x in library) or (x[0:-1] in library)), data.split())
-        tape = Tape()
-        for cmd in cmds:
-            if cmd == library[0]:
-                tape.flip()
-            elif cmd == library[1]:
-                tape.inc()
-            elif cmd == library[2]:
-                tape.dec()
-            elif cmd == library[3]:
-                tape.prt()
-            elif cmd == library[2]+library[3]:
-                tape.dec()
-                if (tape.cells[1]==0 and not tape.prt()):
-                    break
-            elif cmd == library[2]+library[3]+library[3]:
-                tape.dec()
-                tape.prt()
-                tape.prt()
-        print(tape.printbuf)
+    cmds = filter((lambda x : (x in library) or (x[0:-1] in library)), data.split())
+    tape = Tape()
+    for cmd in cmds:
+        if cmd == library[0]: tape.flip()
+        elif cmd == library[1]: tape.inc()
+        elif cmd == library[2]: tape.dec()
+        elif cmd == library[3]: tape.prt()
+        elif cmd == library[2]+library[3]:
+            tape.dec()
+            if (tape.cells[1]==0 and not tape.prt()): break
+        elif cmd == library[2]+library[3]+library[3]:
+            for i in xrange(3): tape.dec()
+    print(tape.printbuf)
 
 def fherp(tape):
     tape.flip()
