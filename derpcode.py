@@ -5,8 +5,7 @@ from string import ascii_lowercase, ascii_uppercase
 
 version = "0.1.0"
 
-def bflip(n):
-    return (1-n)
+def bflip(n): return (1-n)
 
 def fopen():
     if len(sys.argv) < 2:
