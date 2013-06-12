@@ -28,6 +28,9 @@ derpcode consists of two objects: a one-ended **tape** of zero-initialized binar
   <tr>
     <td>?</td><td>Get an ASCII character from stdin and store it in the current bit and the next seven bits.</td>
   </tr>
+  <tr>
+    <td>!</td><td>If current bit c == 1, concatenate c+4 through c+7, interpret as a 4-bit binary number d, and increment the pointer d steps.</td>
+  </tr>
 </table>
 
 ## Syntax ##
