@@ -1,54 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Derpcode by 6C1</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Derpcode by 6C1</title>
   </head>
+
   <body>
 
-      <header>
+    <header>
+      <div class="container">
         <h1>Derpcode</h1>
-        <p>A tape-based esoteric language based on internet slang.</p>
-      </header>
+        <h2>A tape-based esoteric language based on internet slang.</h2>
 
-      <div id="banner">
-        <span id="logo"></span>
+        <section id="downloads">
+          <a href="https://github.com/6C1/derpcode/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/6C1/derpcode/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/6C1/derpcode" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
 
-        <a href="https://github.com/6C1/derpcode" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/6C1/derpcode/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/6C1/derpcode/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <h1>derpcode</h1>
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a name="derpcode" class="anchor" href="#derpcode"><span class="octicon octicon-link"></span></a>derpcode</h1>
 
 <p>A tape-based esoteric language based on internet slang.</p>
 
-<h2>Structure</h2>
+<h2>
+<a name="structure" class="anchor" href="#structure"><span class="octicon octicon-link"></span></a>Structure</h2>
 
 <p>derpcode consists of two objects: a one-ended <strong>tape</strong> of zero-initialized binary values, and a <strong>pointer</strong> 
 (i.e., Turing "head").</p>
 
-<h2>Library</h2>
+<h2>
+<a name="library" class="anchor" href="#library"><span class="octicon octicon-link"></span></a>Library</h2>
 
 <table>
 <tr>
@@ -75,31 +67,37 @@
 <td>?</td>
 <td>Get an ASCII character from stdin and store it in the current bit and the next seven bits.</td>
   </tr>
-</table><h2>Syntax</h2>
+</table><h2>
+<a name="syntax" class="anchor" href="#syntax"><span class="octicon octicon-link"></span></a>Syntax</h2>
 
 <p>Any symbols (including whitespace) which are not defined in the above library table are ignored by the interpreter.</p>
 
-<h3>Initiation</h3>
+<h3>
+<a name="initiation" class="anchor" href="#initiation"><span class="octicon octicon-link"></span></a>Initiation</h3>
 
 <p>Every derpcode program initiates with the commands <code>derp a-derp</code>.</p>
 
-<h3>Termination</h3>
+<h3>
+<a name="termination" class="anchor" href="#termination"><span class="octicon octicon-link"></span></a>Termination</h3>
 
 <p>A derpcode program is terminated by decrementing the pointer to -1 after flipping the 0 value, and running the 
 print command. The last line of all derpcode programs is therefore:</p>
 
 <p><code>herp a-derp.</code></p>
 
-<h2>Implementations</h2>
+<h2>
+<a name="implementations" class="anchor" href="#implementations"><span class="octicon octicon-link"></span></a>Implementations</h2>
 
 <p>Implementations planned include:</p>
 
 <ul>
 <li>[ ] python-based runtime interpreter (in development).</li>
 <li>[ ] compiler down to C, in C.</li>
-</ul><h2>Sample Programs</h2>
+</ul><h2>
+<a name="sample-programs" class="anchor" href="#sample-programs"><span class="octicon octicon-link"></span></a>Sample Programs</h2>
 
-<h3>Hello World</h3>
+<h3>
+<a name="hello-world" class="anchor" href="#hello-world"><span class="octicon octicon-link"></span></a>Hello World</h3>
 
 <p>The following derpcode program prints the phrase "Hello world!" to the screen, and exits.</p>
 
@@ -123,18 +121,15 @@ derp herp derp derp derp derp herp derp derp herp a-derp a-derp a-derp a-derp a-
 herp a-derp.
 </code></pre>
 
-<h2>Obfuscation</h2>
+<h2>
+<a name="obfuscation" class="anchor" href="#obfuscation"><span class="octicon octicon-link"></span></a>Obfuscation</h2>
 
 <p>As derpcode is based on widespread internet slang, its ease of human readability is hard to avoid. However, as the 
 interpreter ignores non-library terms, an easy way to obfuscate derpcode is to simply intersperse your code within
 another text document.</p>
       </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/6C1">6C1</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
-      </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
     
   </body>
 </html>
